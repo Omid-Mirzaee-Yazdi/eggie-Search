@@ -1,0 +1,22 @@
+.search_component{
+    display: flex;
+    margin-top: 200px;
+    flex-direction: column;
+    margin-top: 50px;
+    padding:0 20%;
+}
+.MuiInputBase-root{
+    border-radius: 0 !important;   
+}
+.MuiFormLabel-root.Mui-focused{
+    color: #000 !important;
+}
+.MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline{
+    border-color: #000 !important;
+    border-width: 1px !important;
+}
+@media only screen and (max-width: 600px) {
+    .search_component{
+        padding:0 30px;   
+    }
+}
